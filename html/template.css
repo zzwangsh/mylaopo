@@ -4128,12 +4128,12 @@ html.js {
   top: 50%;
   width: 100px;
 }
-body .tp-leftarrow.default {
+/*body .tp-leftarrow.default {
   background-image: url("http://7xl8mc.com1.z0.glb.clouddn.com/images/pre-slider.png");
 }
 body .tp-rightarrow.default {
   background-image: url("http://7xl8mc.com1.z0.glb.clouddn.com/images/next-slider.png");
-}
+}*/
 .tp-leftarrow,
 .tp-rightarrow {
   background-position: left bottom !important;
