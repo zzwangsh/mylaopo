@@ -1,6 +1,7 @@
 # Marry image
-FROM nginx
-
-MAINTAINER zzwangsh@gmail.com
-
-ADD ./html  /usr/share/nginx/html
+FROM alpine:latest
+MAINTAINER sam zzwangsh@163.com
+RUN apk --update add nginx
+COPY ./mylaopo/html /usr/share/nginx/html
+EXPOSE 80
+CMD [ "nginx","-g","daemon off;"]
